@@ -1,12 +1,9 @@
 import React from "react";
-import { Text } from "react-native";
-import Container from "../../components/common/Container/index.js";
-
+import LoginComponent from "../../components/Login/index.js";
 const Login = () => {
+  const [value, onChangeText] = React.useState("");
   return (
-    <Container>
-      <Text>Hi from login</Text>
-    </Container>
+    <LoginComponent />
   )
 }
 
